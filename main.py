@@ -1,7 +1,10 @@
+
+
+#  Funkcja sprawdzająca palindromy
 def palindrom(string):
-    if string == reversed(string):
+    if string == string[::-1]:
         return True
     else:
         return False
     
-palindrom("kajak")
+print(palindrom("lewel"))
